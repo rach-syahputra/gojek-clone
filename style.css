@@ -5,6 +5,10 @@
   font-family: 'Maison Neue Demi';
 }
 
+a {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
