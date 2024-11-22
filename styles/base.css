@@ -34,7 +34,17 @@ main {
 }
 
 .header {
+  font-family: 'Maison Neue Extended Bold';
+  font-weight: 900;
+}
+
+.header-2 {
   font-family: 'Maison Neue Bold';
+  font-weight: bold;
+}
+
+.header-3 {
+  font-family: 'Maison Neue Extended Bold';
   font-weight: bold;
 }
 

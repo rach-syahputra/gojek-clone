@@ -14,8 +14,11 @@ nav {
 .nav-links {
   display: flex;
   gap: 40px;
-  font-size: 18px;
   font-weight: 700;
+}
+
+.nav-links li a {
+  font-size: 18px;
 }
 
 .nav-links li a:hover {

@@ -52,7 +52,7 @@
   height: 120px;
 }
 
-.scale-card .header {
+.scale-card .header-3 {
   color: #000;
   font-size: 36px;
   font-weight: bold;
@@ -61,4 +61,5 @@
 .scale-card .description {
   color: #000;
   font-size: 16px;
+  font-weight: 100;
 }
