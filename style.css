@@ -3,6 +3,7 @@
   box-sizing: border-box;
   color: #fff;
   font-family: 'Maison Neue Demi';
+  font-size: 16px;
 }
 
 a {
@@ -13,8 +14,25 @@ li {
   list-style: none;
 }
 
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
 body {
   overflow-y: scroll;
+}
+
+.header {
+  font-family: 'Maison Neue Bold';
+  font-weight: bold;
+}
+
+.description {
+  font-family: 'MaisonNeue-Book';
+  font-weight: 100;
+  line-height: 1.5;
 }
 
 /* NAVBAR */
@@ -39,6 +57,10 @@ nav {
   font-weight: 700;
 }
 
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
 .dropdown-link {
   display: flex;
   align-items: center;
@@ -50,6 +72,10 @@ nav {
 }
 
 /*  */
+
+main {
+  background-color: #101820;
+}
 
 /* HERO */
 
@@ -75,9 +101,82 @@ nav {
 .tagline {
   width: 80%;
   margin: 0 auto;
-  font-size: 48px;
+  font-size: 54px;
   font-weight: bold;
+  line-height: 1.4;
   z-index: 2;
 }
 
 /*  */
+
+/* CTA */
+/* CTA-1 */
+.cta-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 80px 0 100px;
+}
+
+.cta-1 h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/*  */
+
+.btn-gabung {
+  padding: 0 24px;
+  width: fit-content;
+  height: 44px;
+  background-color: #00880d;
+  border-radius: 999px;
+}
+/*  */
+
+/* ACHIEVEMENTS */
+.achievements {
+  position: relative;
+  background-color: white;
+  margin: 60px auto 0;
+  max-width: 1200px;
+}
+
+.achievement-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  gap: 32px;
+  align-items: start;
+  position: absolute;
+  top: -130px;
+}
+
+.achievement-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievement-card__icon {
+  width: 140px;
+  margin-bottom: 24px;
+}
+
+.achievement-card__header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.achievement-card__description {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+}
