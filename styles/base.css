@@ -28,6 +28,11 @@ main {
   background-color: #101820;
 }
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .header {
   font-family: 'Maison Neue Bold';
   font-weight: bold;

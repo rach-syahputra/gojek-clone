@@ -1,8 +1,29 @@
 .achievements {
   position: relative;
-  background-color: white;
-  margin: 60px auto 0;
-  max-width: 1200px;
+  padding-bottom: 40px;
+}
+
+.achievements .wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.achievements-bg {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 230px;
+}
+
+.achievements .overlay {
+  background-color: #fff;
+  position: absolute;
+  top: 70px;
+  height: 96px;
+  width: 100%;
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
 }
 
 .achievement-list {
@@ -11,8 +32,6 @@
   margin: 0 auto;
   gap: 32px;
   align-items: start;
-  position: absolute;
-  top: -130px;
 }
 
 .achievement-card {
@@ -27,7 +46,7 @@
   margin-bottom: 24px;
 }
 
-.achievement-card__header {
+.achievement-card .header {
   font-size: 24px;
   font-weight: bold;
   color: #000;
@@ -35,7 +54,7 @@
   text-align: center;
 }
 
-.achievement-card__description {
+.achievement-card .description {
   color: #000;
   text-align: center;
   font-size: 18px;

@@ -1,0 +1,64 @@
+.scales {
+  background-color: #fff;
+  padding: 80px 0 40px;
+}
+
+.scale-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.scale-card {
+  position: relative;
+  height: 370px;
+  display: flex;
+  align-items: end;
+  padding: 0 40px 60px;
+  border-radius: 40px;
+}
+
+.green {
+  background-color: #7ccc6c;
+  box-shadow: rgba(178, 229, 184, 1) 0px 0px 32px 10px;
+}
+
+.purple {
+  background-color: #d48bc8;
+  box-shadow: rgba(208, 180, 212, 1) 0px 0px 32px 10px;
+}
+
+.orange {
+  background-color: #ffae62;
+  box-shadow: rgba(208, 180, 212, 1) 0px 0px 32px 10px;
+}
+
+.blue {
+  background-color: #4ac9e3;
+  box-shadow: rgba(178, 230, 242, 1) 0px 0px 32px 10px;
+}
+
+.scale-card img {
+  position: absolute;
+  top: -80px;
+  left: 10px;
+  width: 95%;
+}
+
+.scale-card__detail {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 120px;
+}
+
+.scale-card .header {
+  color: #000;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.scale-card .description {
+  color: #000;
+  font-size: 16px;
+}
