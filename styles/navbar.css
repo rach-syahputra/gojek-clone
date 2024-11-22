@@ -1,0 +1,33 @@
+nav {
+  background-color: rgb(16 24 32);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 100px;
+}
+
+.logo {
+  width: 112px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.dropdown-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.arrow-down {
+  width: 12px;
+}
