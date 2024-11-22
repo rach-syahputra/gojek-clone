@@ -1,29 +1,32 @@
 .achievements {
   position: relative;
   padding-bottom: 40px;
+  background-color: #fff;
+}
+
+.achievements .top-bg-1 {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 166px;
+  width: 100%;
+  background-color: #101820;
+}
+
+.achievements .top-bg-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 96px;
+  width: 100%;
+  background-color: #fff;
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
 }
 
 .achievements .wrapper {
   position: relative;
   z-index: 2;
-}
-
-.achievements-bg {
-  background-color: #fff;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 230px;
-}
-
-.achievements .overlay {
-  background-color: #fff;
-  position: absolute;
-  top: 70px;
-  height: 96px;
-  width: 100%;
-  border-top-left-radius: 999px;
-  border-top-right-radius: 999px;
 }
 
 .achievement-list {
@@ -47,7 +50,7 @@
 }
 
 .achievement-card .header {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   color: #000;
   margin-bottom: 8px;
@@ -57,5 +60,17 @@
 .achievement-card .description {
   color: #000;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 992px) {
+  .achievement-card .header {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .achievement-card .description {
+    font-size: 18px;
+  }
 }

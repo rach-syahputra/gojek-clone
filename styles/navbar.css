@@ -8,12 +8,12 @@ nav {
 }
 
 .logo {
-  width: 112px;
+  width: 100px;
 }
 
 .nav-links {
-  display: flex;
-  gap: 40px;
+  display: none;
+  gap: 24px;
   font-weight: 700;
 }
 
@@ -33,4 +33,32 @@ nav {
 
 .arrow-down {
   width: 12px;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 2.5px;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-links {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-links {
+    gap: 40px;
+  }
 }
